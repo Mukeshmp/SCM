@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" th:replace="~{base::parent(~{::#content}, ~{::title}, ~{::script})}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Page</title>
+</head>
+<body>
+    <div id = "content" class="bg-gray-100 font-sans">
+            <div class="max-w-6xl mx-auto px-6 py-12">
+                <h1 class="text-5xl font-bold text-center text-blue-600 mb-6">About Smart Contact Manager</h1>
+                <p class="text-lg text-gray-700 text-center mb-10">A modern, secure, and intelligent way to manage your contacts effortlessly.</p>
+        
+                <div class="bg-white p-8 rounded-lg shadow-lg">
+                    <h2 class="text-3xl font-semibold text-gray-800 mb-4">Our Mission</h2>
+                    <p class="text-gray-600 text-lg">Smart Contact Manager (SCM) is designed to revolutionize the way individuals and businesses manage their contacts. Our goal is to provide a seamless and highly secure platform where users can store, organize, and communicate with their contacts efficiently. By integrating cutting-edge security, social media connectivity, and modern UI/UX, SCM ensures that contact management is no longer a tedious task but an intuitive experience.</p>
+                </div>
+        
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mt-10">
+                    <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition">
+                        <h3 class="text-2xl font-semibold text-gray-800">Why Choose SCM?</h3>
+                        <ul class="list-disc list-inside text-gray-600 mt-2 space-y-2">
+                            <li>Secure and encrypted contact storage</li>
+                            <li>Easy integration with social media handles</li>
+                            <li>Intuitive and modern user interface</li>
+                            <li>Built-in communication tools for emails and messaging</li>
+                            <li>Cloud-based access for seamless connectivity</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition">
+                        <h3 class="text-2xl font-semibold text-gray-800">Our Vision</h3>
+                        <p class="text-gray-600 mt-2">We envision a future where contact management is fully automated, smart, and deeply integrated into digital workflows. SCM aims to eliminate manual data entry, reduce security risks, and enhance the way users interact with their contacts.</p>
+                    </div>
+                </div>
+                
+                <div class="mt-10 text-center">
+                    <h2 class="text-3xl font-semibold text-gray-800">Join Us on This Journey!</h2>
+                    <p class="text-lg text-gray-600 mt-4">Be a part of the future of contact management with SCM. Simplify your connections, enhance security, and take control of your communication like never before.</p>
+                </div>
+            </div>
+    </div>
+    <script>
+        console.log("about page");
+    </script>
+</body>
+</html>
